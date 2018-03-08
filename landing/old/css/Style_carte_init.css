@@ -1,0 +1,153 @@
+/*------------hero1 card-----------------*/
+
+.container {
+  width: 21.5%;
+  perspective: 800px;
+}
+
+
+
+
+#card {
+  width: 100%;
+  transform-style: preserve-3d;
+  transition: transform 1s;
+}
+
+#card figure {
+  margin: 0;
+  display: block;
+  width: 100%;
+  backface-visibility: hidden;
+  position:absolute;
+}
+
+
+
+#card .front
+{
+  background-image: url("../medias/dosCarte.png");
+  background-size: 100% 42.355vh;
+  background-repeat: no-repeat;
+  height:42.355vh;
+}
+
+#card .back {
+
+  transform: rotateY( 180deg );
+  background-image: url("../medias/hero_drake.png");
+  background-size: 100% 42.355vh;
+  background-repeat: no-repeat;
+  height:42.355vh;
+
+}
+
+#card.flipped {
+  transform: rotateY( 180deg );
+}
+
+/*------------hero1 button-----------------*/
+#flip
+{
+    width: 100px;
+    height: 40px;
+    color :white ;
+    border-radius: 7px;
+    background-image: url("image/boutonnoir.png");
+}
+#flip:active , #flip:focus , #flip:hover
+{
+    outline: none;
+}
+#flip:hover
+{
+    background-image: url("image/boutonnoir2.png")
+}
+
+/*------------hero2 button-----------------*/
+#flip2
+{
+    width: 100px;
+    height: 40px;
+    color :white ;
+    border-radius: 7px;
+    background-image: url("image/boutonnoir.png");
+    background-repeat: no-repeat;
+    margin:0;
+    padding:0;
+}
+#flip2:active , #flip2:focus , #flip2:hover
+{
+    outline: none;
+}
+#flip2:hover
+{
+    background-image: url("image/boutonnoir2.png")
+}
+
+/*------------dialogue button-----------------*/
+#flip3
+{
+    height: 40px;
+    color :white ;
+    border-radius: 7px;
+    background-image: url("image/boutonnoir.png");
+
+}
+#flip3:active , #flip3:focus , #flip3:hover
+{
+    outline: none;
+}
+#flip3:hover
+{
+    background-image: url("image/boutonnoir2.png")
+}
+
+/*------------hero2 card-----------------*/
+.container2
+{
+  width: 21.5%;
+  perspective: 800px;
+}
+
+#card2 {
+  width: 100%;
+  transform-style: preserve-3d;
+  transition: transform 1s;
+}
+
+#card2 figure
+{
+  margin: 0;
+  display: block;
+  width: 100%;
+  backface-visibility: hidden;
+  position:absolute;
+}
+
+
+
+#card2 .front2
+{
+  background-image: url("../medias/dosCarte.png");
+  background-size: 100% 42.355vh;
+  background-repeat: no-repeat;
+  height:42.355vh;
+}
+#card2 .back2 {
+  transform: rotateY( 180deg );
+<<<<<<< HEAD
+  background-image: url("../medias/hero_HF.png");
+=======
+  background-image: url("../medias/hero_fantasy.png");
+>>>>>>> b420053a310310460ae490f0fa049323f28c4a4f
+  background-size: 100% 42.355vh;
+  background-repeat: no-repeat;
+  height:42.355vh;
+}
+
+#card2.flipped2 {
+  transform: rotateY( 180deg );
+}
+/*-----------------------------------*/
+

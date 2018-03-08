@@ -1,0 +1,246 @@
+@charset "UTF-8";
+
+html
+{
+    font-size: 62.5%;
+}
+
+body
+{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+header
+{
+    width: 100%;
+    height: 14.3vh;
+    background-color: #efd3b3;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+header figure
+{
+    margin: 0;
+    margin-left: 5%;
+    height: 16.25vh;
+    z-index: 2;
+    position: relative;
+    width:11.6%;
+}
+
+header figure img
+{
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    width:80%;
+}
+
+input {
+ margin:10px;
+ border-radius: 5px;
+}
+
+input:hover {
+ background-color:lightgrey;
+}
+
+main
+{
+    width: 100%;
+    height: 79.3vh;
+    background-color: #4b4242;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+main section#sectionMain
+{
+    width: 87.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+main section article#heroes
+{
+    width: 61%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#hero_animation
+{
+    width: 100%;
+    height: 42.355vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+main section article#heroes p#decripHisto
+{
+    display: block;
+    width: 100%;
+    overflow: auto;
+    background-color: #f0d8b6;
+    margin: 0;
+    font-size: 1.7rem;
+    border-radius: 10px;
+    padding:1vh;
+}
+
+main section article#heroes > section
+{
+    width: 100%;
+}
+
+#options3
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+/*------------bulle de conversation--------------*/
+.bulle1 {
+   width: 15vh;
+   height: 18vh;
+   background: #f0d8b6;
+   position: relative;
+   border-radius: 15%;
+}
+.bulle1:before {
+   content:"";
+   position: absolute;
+   right: 100%;
+   top: 50px;
+   width: 0;
+   height: 0;
+   border-top: 13px solid transparent;
+   border-right: 26px solid #f0d8b6;
+   border-bottom: 13px solid transparent;
+}
+.bulle2 {
+   width: 15vh;
+   height: 18vh;
+   background: #f0d8b6;
+   position: relative;
+   border-radius: 15%;
+}
+.bulle2:before {
+   content:"";
+   position: absolute;
+   right: -18%;
+   top: 50px;
+   width: 0;
+   height: 0;
+   border-top: 13px solid transparent;
+   border-left: 26px solid #f0d8b6;
+   border-bottom: 13px solid transparent;
+   z-index: 10;
+}
+
+/*-------------------*/
+
+
+main section aside#forms article#formUsers
+{
+    width: 100%;
+    height: 41.25vh;
+    background-color: #b82e33;
+    margin-bottom: 3.75vh;
+    box-sizing: border-box;
+}
+main section aside#forms article#formUsers form h2
+{
+     text-align: center;
+}
+
+main section aside#forms article#formUsers form
+{
+    display:flex;
+    height:100%;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+main section aside#forms article#formUsers .form
+{
+    padding: 1vh;
+    border-radius:5px;
+    font-weight: :bold;
+    border:none;
+    box-shadow: 5px;
+    font-size:1.7vh;
+    opacity: 0.8;
+    margin: 0.5vh;
+    width: 70%;
+}
+.validerForm
+{
+    border-radius:5px;
+    font-weight: :bold;
+    border:none;
+    box-shadow: 5px;
+    height:3vh;
+    width:50%;
+}
+
+main section aside#forms
+{
+    width: 25%;
+}
+
+main section aside#forms article#formNews
+{
+    width: 100%;
+    height:21.8vh;
+    background-color: #b82e33;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+}
+
+#formNews .formul
+{
+    padding: 1vh;
+    border-radius:5px;
+    font-weight: :bold;
+    border:none;
+    box-shadow: 5px;
+    font-size:1.7vh;
+    width: 60%;
+    opacity: 0.8;
+}
+
+.validerNews
+{
+    border-radius:5px;
+    font-weight: :bold;
+    border:none;
+    box-shadow: 5px;
+    height:3vh;
+    width:50%;
+}
+
+footer
+{
+    width: 100%;
+    height: 6.4vh;
+    background-color: #3b393b;
+}
+

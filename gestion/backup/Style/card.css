@@ -1,0 +1,56 @@
+main{
+    width:80%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.choosecard
+{
+    padding: 7px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: solid 1px #333;
+}
+
+.choosecard h3
+{
+    font-size: 2.2rem;
+}
+
+.choosecard form select , option , input
+{
+    font-size: 2rem;
+}
+
+.formModifContainer
+{
+    padding: 7px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: solid 1px #333;
+}
+
+.formModifContainer label
+{
+    font-size: 2.2rem;
+}
+
+.formModifContainer h3
+{
+    font-size: 2.2rem;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.goodExecute
+{
+    padding: 7px;
+    font-size: 2rem;
+    background-color: lightgreen;
+    color: green;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 20px;
+}

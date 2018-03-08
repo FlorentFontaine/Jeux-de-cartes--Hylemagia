@@ -1,0 +1,20 @@
+
+
+body {
+    background-color: #B09F91;
+}
+
+header {
+    height: 15vh;
+    background-color: #89725b;
+    text-align: center;
+}
+
+footer {
+    height: 15vh;
+    background-color: #89725b;
+}
+
+.main {
+    height: 70vh;
+}
